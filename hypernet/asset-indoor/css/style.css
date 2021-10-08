@@ -1,0 +1,57 @@
+.bg-iol-800 {
+    background-color: #156a99 !important;
+}
+
+.mapbox iframe {}
+
+.demo iframe {
+    height: 120% !important;
+    margin-top: -50px !important;
+}
+
+.small iframe {
+    margin-top: -50px !important;
+}
+
+.mapbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.mapbox:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #000;
+    height: 100%;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.mapbox .icon {
+    z-index: 1000;
+}
+
+.floorbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.floorbox .photo {
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.floorbox .icon {
+    position: absolute;
+}
+
+.floorbox .icon a {
+    display: block;
+}

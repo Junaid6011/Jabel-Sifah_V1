@@ -1,0 +1,36 @@
+.bg-iol-800 {
+    background-color: white!important;
+}
+
+.mapbox iframe {}
+
+.demo iframe {
+    height: 120% !important;
+    margin-top: -50px !important;
+}
+
+.small iframe {
+    margin-top: -50px !important;
+}
+
+.mapbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.mapbox:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #000;
+    height: 100%;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.mapbox .icon {
+    z-index: 1000;
+}
