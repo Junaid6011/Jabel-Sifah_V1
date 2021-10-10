@@ -1347,14 +1347,16 @@
                                             <tr role="row">
 											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px;"
 											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Id </th>
+											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width:359px;"
+											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Invoice# </th>
 											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px;
 											" aria-label=" Meter Name: activate to sort column ascending"> Meter Name</th>
 											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 360px;
 											" aria-label=" Location: activate to sort column ascending"> Location</th>
-											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px;
+											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 290px;
 											" aria-label=" Amount: activate to sort column ascending"> Amount</th>
 											<th class="sorting" tabindex="0"
-											aria-controls="ppp" rowspan="1" colspan="1" style="width: 153px;
+											aria-controls="ppp" rowspan="1" colspan="1" style="width: 253px;
 											" aria-label=" Action: activate to sort column ascending"> Action</th></tr>
 
 
@@ -1363,6 +1365,11 @@
 											<th class="sorting_asc" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
 											aria-sort="ascending" aria-label=" Id : activate to sort column descending">
 											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Id </div></th>
+										<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; 
+											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
+											aria-label=" Invoice#: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Invoice#</div></th>
+
 											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px; padding-top: 0px; 
 											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
 											aria-label=" Meter Name: activate to sort column ascending">
@@ -1375,7 +1382,7 @@
 											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
 											aria-label=" Amount: activate to sort column ascending">
 											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Amount</div></th>
-											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 163px; padding-top: 
+											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 
 											0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
 											aria-label=" Action: activate to sort column ascending">
 											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Action</div></th></tr>
@@ -1400,7 +1407,9 @@
 
                                         <tr role="row" class="odd">
                                                 <td class="sorting_1 dtr-control"> 1 </td>
+												<td>  123</td>
                                                 <td>
+												 
                                                     <div class="media" style="max-width: 130px;">
                                                         <div class="media-left padding-right-10">
                                                             <img src="images/building.jpg" class="img-bordered" style="height:30px">
@@ -1417,218 +1426,21 @@
                                                 <td>
 
 
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control"> 2</td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
+                                                   <a type="button" href="invoice.html" class="btn btn-icon  btn-info btn-xs " 
+												  >
+												   <i class="ri-pencil-fill"></i>
 
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                               
-                                                <td>  Jabel Sifah Oman</td>
- <td>  500 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control"> 3 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                              
-                                                <td>  Jabel Sifah Oman</td>
- <td>  90 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control"> 4 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                              
-                                                <td>  Jabel Sifah Oman</td>
- <td>  250 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">5 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                              
-                                                <td>  Jabel Sifah Oman</td>
- <td>  150 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">6 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                
-                                                <td>  Jabel Sifah Oman</td>
- <td>  500 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control"> 7 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                               
-                                                <td>  Jabel Sifah Oman</td>
- <td>  250 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">8 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                               
-                                                <td>  Jabel Sifah Oman</td>
- <td>  120 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control"> 9 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                
-                                                <td>  Jabel Sifah Oman</td>
- <td>  520 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
-                                                     
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control"> 10 </td>
-                                                <td>
-                                                    <div class="media" style="max-width: 130px;">
-                                                        <div class="media-left padding-right-10">
-                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <a href="building-details.php" class="font-weight-600">JS HQ</a>
-
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                
-                                                <td>  Jabel Sifah Oman</td>
- <td>  110 OMR</td>
-                                                <td>
-
-
-                                                   <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
+												   </a>
+                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " 
+														data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
                                                      
                                                 </td>
                                             </tr>
+											
+											
+											
+											
+											
 											
 											</tbody>
                                     </table></div></div></div></div>
