@@ -1118,6 +1118,7 @@
             </ol>
         </div>
 
+<div class=" page-content Container-fluid">
 
 
 
@@ -1126,17 +1127,12 @@
 
                 <div class="col-lg-4  card-group-row__col ">
                     <div class="panel panel-default card round shadow  ">
-                        <!-- <div class="panel-heading margin-bottom-0">
-                            <h3 class="panel-title font-weight-600 bg-teal-8001 white1 ">Choose Parameters</h3>
-                            <div class="panel-actions">
-                                <a></a>
-                            </div>
-                        </div> -->
+                        
 
                         <div class="panel-body padding-15">
-                            <div class="col-lg-6  col-md-6 col-sm-6">
+                            <div class="col-lg-6 ">
                                 <div class="form-group margin-bottom-10">
-                                    <a href="" class="btn btn-success btn-block bg-theme btn-round" data-toggle="modal" data-target="#add-asset"> <i class="ri-add-circle-fill"></i>Assign New Group </a>
+                                    <a href="" class="btn btn-success btn-block bg-blue-800 bg-theme btn-round" data-toggle="modal" data-target="#add-asset"> <i class="ri-add-circle-fill"></i>Assign New Group </a>
                                 </div>
                                 <div class="modal fade" id="add-asset" role="dialog">
                                     <div class="modal-dialog modal-lg">
@@ -1151,32 +1147,32 @@
                                                         <div class="col-lg-12">
                                                             <div class="form-group margin-bottom-10">
                                                                 <label>Add Email</label>
-                                                                <div class="btn-group bootstrap-select show-tick form-control"><button type="button" class="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" title="Email"><span class="filter-option pull-left">Email</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" role="combobox"><div class="bs-actionsbox"><div class="btn-group btn-group-sm btn-block"><button type="button" class="actions-btn bs-select-all btn btn-default">Select All</button><button type="button" class="actions-btn bs-deselect-all btn btn-default">Deselect All</button></div></div><ul class="dropdown-menu inner" role="listbox"><li data-original-index="0"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">sandeep@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">a.anil12@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">depak.10@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">sandeep@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">a.anil12@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">depak.10@vodafone.com</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select class="form-control selectpicker" title="Email" data-size="5" data-actions-box="true" data-style="btn-select" multiple="" tabindex="-98">
-                                                                    <option>sandeep@vodafone.com</option>
-                                                                    <option>a.anil12@vodafone.com</option>
-                                                                    <option>depak.10@vodafone.com</option>
-                                                                    <option>sandeep@vodafone.com</option>
-                                                                    <option>a.anil12@vodafone.com</option>
-                                                                    <option>depak.10@vodafone.com</option>
+                                                                
+																<select class="form-control selectpicker" title="Email" data-size="5" data-actions-box="true" data-style="btn-select" multiple="" tabindex="-98">
+                                                                    <option>Arafat@artech.om</option>
+                                                                    <option>abc@jabalsifa.om</option>
+                                                                  
 
 
-                                                                </select></div>
+                                                                </select>
+																
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-12">
                                                             <div class="form-group margin-bottom-10">
                                                                 <label>Select Group</label>
-                                                                <div class="btn-group bootstrap-select form-control"><button type="button" class="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" data-id="projectKey" title="Super Admin"><span class="filter-option pull-left">Super Admin</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" role="listbox"><li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Super Admin</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Admin</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Supervisor</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Fleet Operation</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="5"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Maintance Operation</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="6"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Jobs Operation</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="7"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Reporting Users</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select id="projectKey" class="form-control selectpicker" title="Super Admin" data-size="5" data-actions-box="true" data-style="btn-select" tabindex="-98"><option class="bs-title-option" value="">Super Admin</option>
+                                                              
+																
+																<select id="projectKey" class="form-control selectpicker" title="Super Admin" data-size="5" data-actions-box="true" data-style="btn-select" tabindex="-98"><option class="bs-title-option" value="">Super Admin</option>
                                                                     <option>Super Admin</option>
                                                                     <option>Admin</option>
                                                                     <option>Supervisor</option>
-                                                                    <option>Fleet Operation</option>
+                                                                    <option>Customer</option>
                                                                     <option>Maintance Operation</option>
-                                                                    <option>Jobs Operation</option>
                                                                     <option>Reporting Users</option>
 
 
-                                                                </select></div>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                         <script>
@@ -1318,13 +1314,13 @@
                                                     <div class="col-lg-6" id="abc3" style="display: none;">
                                                         <div class="form-group margin-bottom-10 shadow" style="border: 1px solid rgb(238, 238, 238);border-radius: 5px;background-color: rgb(245, 245, 245);">
                                                             <div style="padding: 10px;">
-                                                                <h5><b>Fleet Operation</b></h5>
+                                                                <h5><b>Customer</b></h5>
                                                                 <p>
-                                                                    Fleet Operation has access to following feature.
+                                                                   Customer has access to following feature.
                                                                 </p><ul style="padding-left: 15px;">
-                                                                    <li> Fleet Operation</li>
-                                                                    <li> Fleet Operation</li>
-                                                                    <li> Fleet Operation</li>
+                                                                    <li> Customer Operation</li>
+                                                                    <li> Customer Operation</li>
+                                                                    <li> Customer Operation</li>
 
                                                                 </ul>
                                                                 <p></p>
@@ -1396,9 +1392,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6">
                                 <div class="form-group margin-bottom-10">
-                                    <a href="" class="btn btn-success btn-block bg-theme btn-round" data-toggle="modal" data-target="#add-group"> <i class="ri-add-circle-fill"></i>Add New Group</a>
+                                    <a href="" class="btn btn-success btn-block bg-blue-800 bg-theme btn-round" data-toggle="modal" data-target="#add-group"> <i class="ri-add-circle-fill"></i>Add New Group</a>
                                 </div>
                                 <div class="modal fade" id="add-group" role="dialog">
                                     <div class="modal-dialog modal-lg">
@@ -1444,52 +1440,19 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <!-- <div class="col-md-2">
-                                                                            <div class="btn-group">
-                                                                                <a class="btn btn-default selector"
-                                                                                    title="select all"><i
-                                                                                        class="glyphicon glyphicon-unchecked"></i></a>
-                                                                            </div>
-                                                                        </div> -->
+                                                                       
                                                                     </div>
                                                                     <ul class="list-group" style="text-align:left;overflow: scroll;height: 210px;">
                                                                         <li class="list-group-item">Overall Dashboard</li>
-                                                                        <li class="list-group-item">Fleet Dashboard</li>
-                                                                        <li class="list-group-item">Driver Dashboard</li>
-                                                                        <li class="list-group-item">Maintenance Dashboard</li>
-                                                                        <li class="list-group-item">Real Time Tracking</li>
-                                                                        <li class="list-group-item">Playback</li>
-                                                                        <li class="list-group-item">Manage Geozones</li>
-                                                                        <li class="list-group-item">Manage Route</li>
-                                                                        <li class="list-group-item">Manage POI</li>
-                                                                        <li class="list-group-item">Manage Fleets</li>
-                                                                        <li class="list-group-item">Manage Drivers</li>
-                                                                        <li class="list-group-item">Manage Shifts</li>
-                                                                        <li class="list-group-item">Manage Jobs</li>
-                                                                        <li class="list-group-item">Driver to Vehicle Allocations</li>
-                                                                        <li class="list-group-item">Driver to Shift Allocations</li>
-                                                                        <li class="list-group-item">Fuel Fillup</li>
-                                                                        <li class="list-group-item">Tools</li>
-                                                                        <li class="list-group-item">Manage Maintenance </li>
-                                                                        <li class="list-group-item">Maintenance Jobs Summary</li>
-                                                                        <li class="list-group-item">Predictive Maintenance</li>
-                                                                        <li class="list-group-item">User</li>
-                                                                        <li class="list-group-item">Staff</li>
+                                                                        <li class="list-group-item">Water Meter </li>
+                                                                        <li class="list-group-item">Manage Building</li>
+                                                                        <li class="list-group-item">Manage Floor</li>
+
                                                                         <li class="list-group-item">Roles &amp; Access</li>
-                                                                        <li class="list-group-item">Customers</li>
-                                                                        <li class="list-group-item">Configurations</li>
-                                                                        <li class="list-group-item">Contracts</li>
-                                                                        <li class="list-group-item">Masters</li>
-                                                                        <li class="list-group-item">Driver Profile Report</li>
-                                                                        <li class="list-group-item">Driver Safety Report</li>
-                                                                        <li class="list-group-item">Driver Vehicle Usage Report</li>
-                                                                        <li class="list-group-item">Driver Punctuality Report</li>
-                                                                        <li class="list-group-item">Fleet Maintenance Report</li>
-                                                                        <li class="list-group-item">Fleet Maintenance Jobs Report</li>
-                                                                        <li class="list-group-item">Driver Job Anomaly Report</li>
-                                                                        <li class="list-group-item">Fleet OBD Report</li>
-                                                                        <li class="list-group-item">Documents</li>
-                                                                        <li class="list-group-item">Audit</li>
+                                                                        <li class="list-group-item">Customers</li>     
+                                                                        <li class="list-group-item">Report</li>
+                                                                        <li class="list-group-item">Payment Gateway</li>
+                                                   
 
 
 
@@ -1510,14 +1473,7 @@
                                                             <div class="dual-list list-right col-md-5">
                                                                 <div class="well">
                                                                     <div class="row">
-                                                                        <!-- <div class="col-md-2">
-                                                                            <div class="btn-group">
-                                                                                <a class="btn btn-default selector"
-                                                                                    title="select all"><i
-                                                                                        class="glyphicon glyphicon-unchecked"></i></a>
-                                                                            </div>
-                                                                            
-                                                                        </div> -->
+                                                                       
                                                                         <div class="col-md-12">
                                                                             <div class="form-group margin-bottom-10">
                                                                                 <div class="input-search">
@@ -1612,17 +1568,8 @@
 
 
 
-                            <!-- <div class="form-group margin-bottom-10">
-                                <fieldset class="form-fieldset">
-                                    <legend>Filter</legend>
-                                    <div class="form-group margin-bottom-10">
-                                        <select class="form-control selectpicker" title="Select Type" data-size="5" data-style="btn-select">
-                                            <option>Type1</option>
-                                            <option>Type2</option>                                         
-                                        </select>
-                                    </div>
-                                </fieldset>
-                            </div> -->
+                           <div class="row">
+						   <div class="col-lg-12">
                             <div class="form-group margin-bottom-10">
                                 <fieldset class="form-fieldset">
                                     <legend>Search</legend>
@@ -1650,7 +1597,8 @@
 
                                 </fieldset>
                             </div>
-
+</div>
+</div>
 
 
                             <hr>
@@ -1899,38 +1847,13 @@
                                             </tr></tbody>
                                     </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="ppp_info" role="status" aria-live="polite">Showing 1 to 9 of 9 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="ppp_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="ppp_previous"><a href="#" aria-controls="ppp" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="ppp" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="ppp_next"><a href="#" aria-controls="ppp" data-dt-idx="2" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
 
-                                    <script>
-                                        $(document).ready(function () {
-                                            var table = $('#ppp').DataTable({
-                                                'lengthChange': false,
-                                                "searching": false,
-                                                'responsive': true,
-                                                'pageLength': 15,
-                                                // scrollY: 250,
-                                                paging: true,
-                                                // dom: 'Bfrtip',
-                                                // buttons: [{
-                                                //     text: 'PDF',
-                                                //     extend: 'pdf',
-                                                //     className: 'btn btn-outline btn-default btn-sm1',
-                                                // }, {
-                                                //     text: 'XLS',
-                                                //     extend: 'excel',
-                                                //     className: 'btn btn-outline btn-default btn-sm1',
-                                                // }],
-                                                "columnDefs": [{
-                                                    "targets": 'no-sort',
-                                                    "orderable": false,
-                                                }],
-
-                                            });
-
-                                        });
-                                    </script>
+                                    
                                 </div>
 
 
                                 
+
+
                             </div>
                         </div>
 
@@ -1947,6 +1870,37 @@
 
 
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+            
 
 
 
