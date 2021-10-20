@@ -724,7 +724,21 @@
   visibility: hidden;
   opacity: 0;
 }
+.inlineimage {
+    max-width: 470px;
+    margin-right: 8px;
+    margin-left: 10px
+}
 
+.images {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    left: 20px;
+    text-align: center
+}
 .resize-triggers,
 .resize-triggers>div,
 .contract-trigger:before {
@@ -864,12 +878,11 @@
 
         <div class="breadcrumb-box">
             <ol class="breadcrumb breadcrumb-arrow ">
-                <li><a href="javascript:void(0)"> Customer Details </a> </li>
+                <li><a href="javascript:void(0)"> Billing system </a> </li>
 
             </ol>
         </div>
 
-      <div class=" page-content Container-fluid">
 
 
 
@@ -878,167 +891,118 @@
 
                 <div class="col-lg-4  card-group-row__col ">
                     <div class="panel panel-default card round shadow  ">
-                     
+                        <!-- <div class="panel-heading margin-bottom-0">
+                            <h3 class="panel-title font-weight-600 bg-teal-8001 white1 ">Choose Parameters</h3>
+                            <div class="panel-actions">
+                                <a></a>
+                            </div>
+                        </div> -->
                         <div class="panel-body padding-15">
                             <div class="form-group margin-bottom-10">
-                                <a href="" class="btn btn-success btn-block bg-blue-800 bg-theme btn-round" data-toggle="modal" data-target="#add-asset"> <i class="ri-add-circle-fill"></i> New </a>
+                                <a href="" class="btn btn-success btn-block bg-blue-800 bg-theme btn-round" data-toggle="modal" data-target="#add-asset"> <i class="ri-add-circle-fill"></i> New Payment</a>
                             </div>
-                            <div class="modal fade" id="add-asset" role="dialog">
-                                <div class="modal-dialog modal-sm1">
+                            <div class="modal fade" id="add-asset" role="dialog" style="display: none;">
+                                <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">×</button>
-                                            <h4 class="modal-title">Customer</h4>
+                                            <h4 class="modal-title">Add New Payment </h4>
                                         </div>
-                                        <div class="modal-body">
+                                       <div class="container">
+    <div class="page-header text-center">
+        <h1>Credit Card Payment Gateway</h1>
+    </div>
+    <!-- Credit Card Payment Form - START -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <h3 class="text-center">Payment Details</h3>
+                            <div class="inlineimage"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Discover-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Paypal-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/American-Express-Curved.png"> </div>
+                        </div>
+                    </div>
+					
+                    <div class="panel-body">
+                        <form role="form">
+						 <div class="row">
+                                                            <div class="col-xs-12">
+                                    <div class="form-group"> <label>Meter Number</label>
+									<input type="text" class="form-control" placeholder="Meter Number" /> </div>
+                                </div>
+</div>
 
-                                            <div class="nav-tabs-horizontal">
-                                                
-                                                <div class="tab-content ">
-                                                    <div class="tab-pane active " id="new" role="tabpanel">
 
-                                                        <div class="row">
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Name</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Name">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Passport Number</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Passport Number">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Email</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Email">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Contract Number</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Contract Number">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> ID Card </label>
-                                                                    <input type="text" class="form-control" value="" placeholder="ID Card ">
-                                                                </div>
-                                                            </div>
-															<div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Contact Number </label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Contact Number ">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label> Address</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="Address">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-12">
-                                                                <div class="form-group margin-bottom-10">
-                                                                    <label>Description</label>
-                                                                    <input type="text" class="form-control" value="" placeholder="...">
-                                                                </div>
-                                                            </div>
-                                                            
+<div class="row">
+                                                             <div class="col-xs-12">
+                                    <div class="form-group"> <label>Amount</label>
+									<input type="text" class="form-control" placeholder="Billed Amount" /> </div>
+                                </div>
 
 
                                                         </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group margin-bottom-10">
-                                                        <label>Choose Document Type </label>
-                                                        <div class="btn-group bootstrap-select form-control">
-														
-														<div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" 
-														role="listbox"><li data-original-index="1">
-														<a tabindex="0" class="" data-tokens="null" 
-														role="option" aria-disabled="false" aria-selected="false">
-														<span class="text">-</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
-														<li data-original-index="2">
-														<a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
-														<span class="text">-</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
-														<select class="form-control selectpicker" title="Select" data-size="5" 
-														data-style="btn-select" tabindex="-98">
-														<option class="bs-title-option" value="">Select</option>
-                                                            <option>-</option>
-                                                            <option>-</option>                                                          
-                                                        </select></div>
-                                                    </div>
-                                                </div>
-												<div class="col-lg-12">
-                                                    <div class="form-group margin-bottom-10">
-                                                        <label for="exampleFile" class="">Upload Files</label>
-                                                        <input name="file" id="exampleFile" type="file" class="form-control-file  ">
-                                                    </div>
-                                                </div>
-												<div class="col-lg-12">
-                                                    <div class="form-group margin-bottom-0">
-                                                        <label>Uploaded Documents  </label>
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <div class=" bg-grey-100 padding-10 text-center ">
-                                                                    <img src="images/icon-xls.png" height="50">
-                                                                    <div class="font-size-10 margin-bottom-5">Document name ad...</div>
-                                                                    <a href="" class="btn-link">Remove</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <div class=" bg-grey-100 padding-10 text-center ">
-                                                                    <img src="images/icon-xls.png" height="50">
-                                                                    <div class="font-size-10 margin-bottom-5">Document name ad...</div>
-                                                                    <a href="" class="btn-link">Remove</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <div class=" bg-grey-100 padding-10 text-center ">
-                                                                    <img src="images/icon-xls.png" height="50">
-                                                                    <div class="font-size-10 margin-bottom-5">Document name ad...</div>
-                                                                    <a href="" class="btn-link">Remove</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <div class=" bg-grey-100 padding-10 text-center ">
-                                                                    <img src="images/icon-xls.png" height="50">
-                                                                    <div class="font-size-10 margin-bottom-5">Document name ad...</div>
-                                                                    <a href="" class="btn-link">Remove</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            <hr>
-											
-                                            <div class="form-group margin-bottom-10 text-center">
-                                                <a href="" class="btn btn-success btn-round "> <i class="ri-check-fill"></i> Save</a>
-                                                <a href="" class="btn btn-default btn-round "> <i class="ri-arrow-go-back-line"></i> Back</a>
-                                            </div>
-
-                                        </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group"> <label>CARD NUMBER</label>
+                                        <div class="input-group"> <input type="tel" class="form-control" placeholder="Valid Card Number" /> <span class="input-group-addon"><span class="fa fa-credit-card"></span></span> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-7 col-md-7">
+                                    <div class="form-group"> <label><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label> <input type="tel" class="form-control" placeholder="MM / YY" /> </div>
+                                </div>
+                                <div class="col-xs-5 col-md-5 pull-right">
+                                    <div class="form-group"> <label>CV CODE</label> <input type="tel" class="form-control" placeholder="CVC" /> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group"> <label>CARD OWNER</label> <input type="text" class="form-control" placeholder="Card Owner Name" /> </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-xs-12"> <button class="btn btn-success btn-lg btn-block">Confirm Payment</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
 
                                     </div>
                                 </div>
                             </div>
 
+
                             <div class="form-group margin-bottom-10">
                                 <fieldset class="form-fieldset">
                                     <legend>Search</legend>
-
+                                    <div class="form-group margin-bottom-10">
+                                        <div class="btn-group bootstrap-select form-control"><button type="button" class="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" title="Choose Building">
+										<span class="filter-option pull-left">Choose Meter</span>&nbsp;<span class="bs-caret"><span class="caret"></span>
+										</span></button>
+										<div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" role="listbox">
+										<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Building 1</span>
+										<span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="2">
+										<a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
+										<span class="text">Building 2</span>
+										<span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
+										</div>
+                                    </div>
                                     <div class="form-group margin-bottom-10">
                                         <div class="input-search">
                                             <i class="input-search-icon ri-search-line"></i>
                                             <input type="text" class="form-control" name="" placeholder="Search...">
-                                            <button type="button" class="input-search-close icon " data-toggle="popover" data-original-title="" data-trigger="hover" data-container="body" data-placement="top" data-html="true" id="help2"><i class="ri-information-line"></i></button>
+                                            <button type="button" class="input-search-close icon " data-toggle="popover" data-original-title="" 
+											data-trigger="hover" data-container="body" data-placement="top" data-html="true" id="help2">
+											<i class="ri-information-line"></i></button>
                                             <div id="popover-content-help2" class="hide">
                                                 Some help information goes here
                                             </div>
@@ -1113,7 +1077,7 @@
                                 </div>
                             </div>
                             <div class="panel-body padding-15">
-                            <div class="input-search" style="max-width:30%;margin-bottom:10px">
+                                <div class="input-search" style="max-width:30%;margin-bottom:10px">
                                     <i class="input-search-icon ri-search-line"></i>
                                     <input type="text" class="form-control" name="" placeholder="Search...">
                                     <button type="button" class="input-search-close icon " data-toggle="popover" data-original-title="" data-trigger="hover" data-container="body" data-placement="top" data-html="true" id="help2"><i class="ri-information-line"></i></button>
@@ -1122,12 +1086,63 @@
                                     </div>
                                 </div>
 
+
                                 <div class="table-responsive   vscroll" style="height: auto;">
-                                    <div id="ppp_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer" style="width: 100%;"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"></div></div><div class="row"><div class="col-sm-12"><table class="table nowrap margin-bottom-0 table-bordered  table-striped theme-table1  bg-white  table-condensed  text-wrap dataTable no-footer dtr-inline" id="ppp" role="grid" aria-describedby="ppp_info" style="width: 951px;">
-                                        <thead>
-                                            <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 63px;" aria-sort="ascending" aria-label=" Name : activate to sort column descending"> Name </th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 63px;" aria-label=" Status : activate to sort column ascending"> Status </th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 98px;" aria-label=" Passport Number: activate to sort column ascending"> Passport Number</th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 102px;" aria-label=" Modified By: activate to sort column ascending"> Modified By</th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 157px;" aria-label=" Modified Date Time : activate to sort column ascending"> Modified Date Time </th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 151px;" aria-label=" Created Date Time : activate to sort column ascending"> Created Date Time </th><th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 65px;" aria-label=" Action: activate to sort column ascending"> Action</th></tr>
+                                    <div id="ppp_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer" style="width: 100%;"><div class="row">
+									<div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"></div></div><div class="row"><div class="col-sm-12">
+									<div class="dataTables_scroll"><div class="dataTables_scrollHead" 
+									style="overflow: hidden; position: relative; border: 0px; width: 100%;">
+									<div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 972px; padding-right: 3px;">
+									<table class="table nowrap margin-bottom-0 table-bordered  table-striped theme-table1  bg-white  table-condensed 
+									text-wrap dataTable no-footer" role="grid" style="margin-left: 0px; width: 972px;"><thead>
+                                            <tr role="row">
+											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px;"
+											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Id </th>
+											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width:359px;"
+											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Invoice# </th>
+											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px;
+											" aria-label=" Meter Name: activate to sort column ascending"> Meter Name</th>
+											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 360px;
+											" aria-label=" Location: activate to sort column ascending"> Location</th>
+											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 290px;
+											" aria-label=" Amount: activate to sort column ascending"> Amount</th>
+											<th class="sorting" tabindex="0"
+											aria-controls="ppp" rowspan="1" colspan="1" style="width: 253px;
+											" aria-label=" Action: activate to sort column ascending"> Action</th></tr>
+
+
+                                        </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; max-height: 250px; height: 250px; width: 100%;"><table class="table nowrap margin-bottom-0 table-bordered  table-striped theme-table1  bg-white  table-condensed  text-wrap dataTable no-footer dtr-inline" id="ppp" role="grid" aria-describedby="ppp_info" style="width: 100%;"><thead>
+                                            <tr role="row" style="height: 0px;">
+											<th class="sorting_asc" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
+											aria-sort="ascending" aria-label=" Id : activate to sort column descending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Id </div></th>
+										<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; 
+											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
+											aria-label=" Invoice#: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Invoice#</div></th>
+
+											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px; padding-top: 0px; 
+											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
+											aria-label=" Meter Name: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Meter Name</div></th>
+											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 360px; padding-top: 0px; 
+											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
+											aria-label=" Location: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Location</div></th>
+                                             <th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; 
+											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
+											aria-label=" Amount: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Amount</div></th>
+											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 
+											0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
+											aria-label=" Action: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Action</div></th></tr>
+
+
                                         </thead>
+                                        
                                         <tbody>
+                                            
                                             
                                             
                                             
@@ -1142,181 +1157,77 @@
 
 
                                         <tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
+                                                <td class="sorting_1 dtr-control"> 1 </td>
+												<td>  123</td>
+                                                <td>
+												 
+                                                    <div class="media" style="max-width: 130px;">
+                                                        <div class="media-left padding-right-10">
+                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <a href="detail-meter.php" class="font-weight-600">JS HQ</a>
 
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
+                                                        </div>
+                                                    </div>
                                                 </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
                                                
-                                                </th><td>
+                                                <td>  Jabel Sifah Oman</td>
+ <td>  50 OMR</td>
+                                                <td>
 
 
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
+                                                   <a type="button" href="invoice.html" class="btn btn-icon  btn-info btn-xs " 
+												  >
+												   <i class="ri-pencil-fill"></i>
+
+												   </a>
+                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " 
+														data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
+                                                     
                                                 </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
+                                            </tr>
+											
+											
+											
+											
+											
+											
+											</tbody>
+                                    </table></div></div></div></div>
 
+                                    <script>
+                                        $(document).ready(function () {
+                                            var table = $('#ppp').DataTable({
+                                                'lengthChange': false,
+                                                "searching": false,
+                                                'responsive': true,
+                                                'pageLength': 15,
+                                                scrollY: 250,
+                                                paging: true,
+                                                // dom: 'Bfrtip',
+                                                // buttons: [{
+                                                //     text: 'PDF',
+                                                //     extend: 'pdf',
+                                                //     className: 'btn btn-outline btn-default btn-sm1',
+                                                // }, {
+                                                //     text: 'XLS',
+                                                //     extend: 'excel',
+                                                //     className: 'btn btn-outline btn-default btn-sm1',
+                                                // }],
+                                                "columnDefs": [{
+                                                    "targets": 'no-sort',
+                                                    "orderable": false,
+                                                }],
 
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
+                                            });
 
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> <i class="ri-pencil-fill"></i> </a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr><tr role="row" class="even">
-                                                <td class="sorting_1 dtr-control">Ivar Banega</td>
-                                                <td> Active</td>
-                                                <td> 15335 </td>
-                                                <td>Sandeep Kumar</td>
-                                                <td>  20/08/2020 19:28</td>
-                                                <th>20/08/2020 20:28
-                                               
-                                                </th><td>
-
-
-                                                    <a type="button" href="#add-asset" class="btn btn-icon  btn-info btn-xs " data-toggle="modal" data-target="#add-asset"> 
-													<i class="ri-pencil-fill"></i> 
-													</a>
-                                                    <button type="button" class="btn btn-icon  btn-danger btn-xs "> <i class="ri-delete-bin-6-line"></i> </button>
-                                                </td>
-                                            </tr></tbody>
-                                    </table>
-									</div>
-									</div>
-									
-									<div class="row">
-									<div class="col-sm-12 col-md-5">
-									<div class="dataTables_info" id="ppp_info" role="status" aria-live="polite">Showing 1 to 10 of 10 entries</div>
-									
-									</div>
-									
-									<div class="col-sm-12 col-md-7">
-									<div class="dataTables_paginate paging_simple_numbers" id="ppp_paginate">
-									<ul class="pagination">
-									<li class="paginate_button page-item previous disabled" id="ppp_previous">
-									<a href="#" aria-controls="ppp" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
-									</li>
-									<li class="paginate_button page-item active">
-									<a href="#" aria-controls="ppp" data-dt-idx="1" tabindex="0" class="page-link">1</a>
-									</li>
-									<li class="paginate_button page-item next disabled" id="ppp_next">
-									<a href="#" aria-controls="ppp" data-dt-idx="2" tabindex="0" class="page-link">Next</a></li>
-									</ul>
-									</div>
-									</div>
-									</div>
-									
-                                  
+                                        });
+                                    </script>
                                 </div>
-								</div>
 
 
-                    
-
+                                <div
 
                             </div>
                         </div>
@@ -1334,33 +1245,6 @@
 
 
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
 
 
 
