@@ -858,257 +858,9 @@
     }
 </style>
 <nav class="site-navbar navbar navbar-default bg-grey-800 navbar-fixed-top navbar-mega  " role="navigation">
-   
+<?php include_once('_leftmenu.php'); ?>
     
-	<div class="navbar-header ">
-        <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided unfolded" data-toggle="menubar">
-            <span class="sr-only">navigation</span>
-            <span class="hamburger-bar"></span>
-        </button>
-        <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse" data-toggle="collapse">
-            <i class="icon ion-android-apps"></i>
-        </button>
-        <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-search" data-toggle="collapse">
-            <span class="sr-only">Search</span>
-            <i class="icon ion-ios-search-strong"></i>
-        </button>
-        <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
-            <a href="dashboard.php">
-                <img class="navbar-brand-logo" src="images/download.png" style="height:30px; margin-top:0px;" title="">
-			
-                <span class="navbar-brand-text hidden-xs"> <img class="navbar-brand-logo" src="images/discordLogo.png" style="height:40px; margin-top:0px;" title="img">
-                </span>
-                <!-- <span class="navbar-brand-text hidden-xs">  <b>Hypernet Platform</b> <i> Powered by HyperNym</i> </span> -->
-            </a>
-        </div>
-    </div>
-    <div class="navbar-container container-fluid">
-        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
-            <ul class="nav navbar-toolbar">
-                <li class="hidden-float" id="toggleMenubar">
-                    <a data-toggle="menubar" href="#">
-                        <i class="icon hamburger hamburger-arrow-left hided unfolded">
-                            <span class="sr-only">Toggle menubar</span>
-                            <span class="hamburger-bar"></span>
-                        </i>
-                    </a>
-                </li>
-                <li class="hidden-float">
-                    <form class="navbar-form" role="search">
-                        <div class="input-search">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <button type="button" class="input-search-btn">
-                                <i class="icon ion-ios-search-strong"></i>
-                            </button>
-                        </div>
-                    </form>
-                </li>
-
-            </ul>
-            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
-                
-                <li class="">
-                    <a data-toggle="" href="admin-dashboard.php" title="Configurations">
-                        <i class="ion-android-settings"></i>
-                    </a>
-                    <!-- <ul class="dropdown-menu ">
-                    <li> <a href="admin-dashboard.php">Admin Portal</a></li>
-                      <li><a href="">Choose Customer</a> </li> 
-                    </ul> -->
-
-                </li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" href="javascript:void(0)" title="Notifications">
-                        <i class="ion-android-notifications"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media">
-                        <li class="dropdown-menu-header">
-                            <h5>NOTIFICATIONS / ALERTS</h5>
-                            <span class="label label-round label-danger">0</span>
-                        </li>
-                        <li class="list-group">
-                            <div>
-                                <div>
-                                    <a class="list-group-item" href="">
-                                        <div class="media"> No Notifications </div>
-                                    </a>
-                               
-                                    <div class="dropdown-menu-footer text-center padding-10 bg-grey-100 font-size-12">
-                                        <a href="javascript:void(0)" class="">See All Notifications</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <li class="dropdown">
-                    <a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" title="Profile">
-
-                        <span class="avatar avatar-online">
-                            <img src="images/user-img1.jpg" alt="...">
-                            <i></i>
-                        </span>
-                    </a>
-                    <ul class="dropdown-menu ">
-                        <li>
-                            <a href="profile.php" class=""><i class="icon ion-person"></i>Profile Settings</a>
-                        </li>
-                        
-                        <li class="divider"></li>
-                        <li>
-                            <a href="login.php?logout=true"><i class="icon ion-power"></i> Logout</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        
-</div></nav>    ﻿<div class="site-menubar" style="z-index:1">
-    <div class="site-menubar-body scrollable scrollable-inverse is-enabled scrollable-vertical">
-
-        <ul class="site-menu scrollable-container" style="height: 543px; width: 221px;">
-         
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-pie-chart-box-line"></i> </i>
-                    <span class="site-menu-title"> Dashboard </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                    <li class="site-menu-item">
-                        <a class="" href="dashboard.php"> <span class="site-menu-title">Overall
-                            </span> </a>
-                    </li>
-                   
-
-
-
-                </ul>
-            </li>
-
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-boxing-line"></i> </i>
-                    <span class="site-menu-title"> Utilities   </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                   
-                    <li class="site-menu-item">
-                        <a class="" href="water.php"> <span class="site-menu-title">Water </span> </a>
-                    </li>
-                   
-                </ul>
-            </li>
-
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-building-line"></i> </i>
-                    <span class="site-menu-title"> Manage Building  </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                    <li class="site-menu-item">
-                        <a class="" href="manage-building.php"> <span class="site-menu-title">   Building  
-                            </span> </a>
-                    </li>
-                    <li class="site-menu-item">
-                        <a class="" href="manage-floor.php"> <span class="site-menu-title">  Floor  </span> </a>
-                    </li>
-                    <li class="site-menu-item">
-                        <a class="" href="manage-offices.php"> <span class="site-menu-title">     Apartment/Office </span>
-                        </a>
-                    </li>
-                    <li class="site-menu-item">
-                        <a class="" href="manage-rooms.php"> <span class="site-menu-title">   Room  </span>
-                        </a>
-                    </li>
-                   
-        
-
-                </ul>
-            </li>
-
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-user-2-line"></i> </i>
-                    <span class="site-menu-title"> Manage Tenants  </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                    <li class="site-menu-item">
-                        <a class="" href="manage-tannet.php"> <span class="site-menu-title">     Tenants 
-                            </span> </a>
-                    </li>
-                    <li class="site-menu-item">
-                        <a class="" href="admin-contracts.php"> <span class="site-menu-title">      Contracts   </span> </a>
-                    </li>
-
-                </ul>
-            </li>
-
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-numbers-line"></i> </i>
-                    <span class="site-menu-title"> Reports  </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                    
-                    <li class="site-menu-item">
-                        <a class="" href="water-consumption.php"> <span class="site-menu-title">     Water Consumption   </span> </a>
-                    </li>
-                    
-                   
-
-                </ul>
-            </li>
-
-            <li class="site-menu-item     scrollable-content" style="width: 216px;">
-                <a href="alerts.php">
-                    <i class="site-menu-icon icon "> <i class="ri-alert-line"></i></i>
-                    <span class="site-menu-title"> Alerts </span>
-                </a>
-            </li>
-         
-            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-			
- <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
-                <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-user-2-line"></i> </i>
-                    <span class="site-menu-title"> User & Admin  </span>
-                    <span class="site-menu-arrow"></span>
-                </a>
-                <ul class="site-menu-sub">
-                    <li class="site-menu-item">
-                        <a class="" href="role_access.php"> <span class="site-menu-title">     Role and Access 
-                            </span> </a>
-                    </li>
-                    <li class="site-menu-item">
-                        <a class="" href="admin-Customer.php"> <span class="site-menu-title">      Customer   </span> </a>
-                    </li>
-
-                </ul>
-            </li>
-            
-           
-            <li class="site-menu-item     scrollable-content" style="width: 216px;">
-                <a href="audit-reports.php">
-                    <i class="site-menu-icon icon "> <i class="ri-file-text-line"></i></i>
-                    <span class="site-menu-title"> Payment Gateway </span>
-                </a>
-            </li>
-   
-
-
-        </ul>
-    <div class="scrollable-bar scrollable-bar-vertical scrollable-bar-hide is-disabled" draggable="false"><div class="scrollable-bar-handle"></div></div></div>
-    
-
-</div>   
+	
  <div class="page ">
 
         <div class="breadcrumb-box">
@@ -1415,7 +1167,13 @@
                              </div> -->
                             <div>
                                 <div class="chartbox">
-                                    <div id="space12" style="height:355px;"><div style="width: 100%; height: 100%; position: relative;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs><clipPath id="id-145"><rect width="719" height="355"></rect></clipPath><linearGradient id="gradient-id-168" x1="1%" x2="99%" y1="59%" y2="41%"><stop stop-color="#474758" offset="0"></stop><stop stop-color="#474758" stop-opacity="1" offset="0.75"></stop><stop stop-color="#3cabff" stop-opacity="1" offset="0.755"></stop></linearGradient><clipPath id="id-177"></clipPath><clipPath id="id-200"></clipPath><filter id="filter-id-150" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-165" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%"><feColorMatrix type="saturate" values="0"></feColorMatrix></filter><filter id="filter-id-182" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-205" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g><g fill="#ffffff" fill-opacity="0"><rect width="719" height="355"></rect></g><g><g role="region" clip-path="url(&quot;#id-145&quot;)" opacity="1" aria-label="Chart"><g><g><g><g><g><g transform="translate(359.5,247.1213)"><g><g role="group" opacity="1" aria-label="Series"><g><g clip-path="url(&quot;#id-177&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M-129.2583,47.0462  L-139.2013,50.6651  a148.13488530146415,148.13488530146415,0,0,1,207.304,-182.2172 L63.2383,-122.1555  a137.5538220656,137.5538220656,0,0,0,-192.4966,169.2017 L-129.2583,47.0462 "></path></g><g></g></g></g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M63.2383,-122.1555  L68.1028,-131.5521  a148.13488530146415,148.13488530146415,0,0,1,71.0985,182.2172 L129.2583,47.0462  a137.5538220656,137.5538220656,0,0,0,-66.02,-169.2017 L63.2383,-122.1555 "></path></g><g></g></g></g></g></g><g><g></g></g><g><g></g></g></g></g><g role="group" opacity="1" aria-label="Series"><g><g clip-path="url(&quot;#id-200&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M-149.1442,54.2841  L-198.8589,72.3787  a211.62126471637737,211.62126471637737,0,0,1,135.9308,-274.4273 a211.62126471637737,211.62126471637737,0,0,1,267.7174,148.7109 L153.592,-40.0033  a158.7159485373,158.7159485373,0,0,0,-200.788,-111.5331 a158.7159485373,158.7159485373,0,0,0,-101.9482,205.8204 L-149.1442,54.2841 "></path></g><g></g></g></g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#875692"><g><g><path d=" M153.592,-40.0033  L204.7893,-53.3377  a211.62126471637737,211.62126471637737,0,0,1,-5.9303,125.7164 L149.1442,54.2841  a158.7159485373,158.7159485373,0,0,0,4.4478,-94.2873 L153.592,-40.0033 "></path></g><g></g></g></g></g></g><g><g></g></g><g><g></g></g></g></g><g fill="#000000"><g transform="translate(-67,-29.5)" style="user-select: none;"><text x="67px" y="22.015625" dy="-5.944" text-anchor="middle"><tspan style="font-size:18px">
+                                    <div id="space12" style="height:355px;"><div style="width: 100%; height: 100%; position: relative;"><svg version="1.1" 
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs>
+                                      <clipPath id="id-145"><rect width="719" height="355"></rect></clipPath><linearGradient id="gradient-id-168" x1="1%" x2="99%" y1="59%" y2="41%">
+                                        <stop stop-color="#474758" offset="0"></stop><stop stop-color="#474758" stop-opacity="1" offset="0.75">
+
+                                        </stop><stop stop-color="#3cabff" stop-opacity="1" offset="0.755"></stop></linearGradient><clipPath id="id-177"></clipPath><clipPath id="id-200"></clipPath>
+                                        <filter id="filter-id-150" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-165" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%"><feColorMatrix type="saturate" values="0"></feColorMatrix></filter><filter id="filter-id-182" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-205" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g><g fill="#ffffff" fill-opacity="0"><rect width="719" height="355"></rect></g><g><g role="region" clip-path="url(&quot;#id-145&quot;)" opacity="1" aria-label="Chart"><g><g><g><g><g><g transform="translate(359.5,247.1213)"><g><g role="group" opacity="1" aria-label="Series"><g><g clip-path="url(&quot;#id-177&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M-129.2583,47.0462  L-139.2013,50.6651  a148.13488530146415,148.13488530146415,0,0,1,207.304,-182.2172 L63.2383,-122.1555  a137.5538220656,137.5538220656,0,0,0,-192.4966,169.2017 L-129.2583,47.0462 "></path></g><g></g></g></g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M63.2383,-122.1555  L68.1028,-131.5521  a148.13488530146415,148.13488530146415,0,0,1,71.0985,182.2172 L129.2583,47.0462  a137.5538220656,137.5538220656,0,0,0,-66.02,-169.2017 L63.2383,-122.1555 "></path></g><g></g></g></g></g></g><g><g></g></g><g><g></g></g></g></g><g role="group" opacity="1" aria-label="Series"><g><g clip-path="url(&quot;#id-200&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#f3c300"><g><g><path d=" M-149.1442,54.2841  L-198.8589,72.3787  a211.62126471637737,211.62126471637737,0,0,1,135.9308,-274.4273 a211.62126471637737,211.62126471637737,0,0,1,267.7174,148.7109 L153.592,-40.0033  a158.7159485373,158.7159485373,0,0,0,-200.788,-111.5331 a158.7159485373,158.7159485373,0,0,0,-101.9482,205.8204 L-149.1442,54.2841 "></path></g><g></g></g></g><g stroke-opacity="1" stroke="#ffffff" stroke-width="1" role="menuitem" focusable="true" tabindex="0" fill="#875692"><g><g><path d=" M153.592,-40.0033  L204.7893,-53.3377  a211.62126471637737,211.62126471637737,0,0,1,-5.9303,125.7164 L149.1442,54.2841  a158.7159485373,158.7159485373,0,0,0,4.4478,-94.2873 L153.592,-40.0033 "></path></g><g></g></g></g></g></g><g><g></g></g><g><g></g></g></g></g><g fill="#000000"><g transform="translate(-67,-29.5)" style="user-select: none;"><text x="67px" y="22.015625" dy="-5.944" text-anchor="middle"><tspan style="font-size:18px">
 									Current Level</tspan><tspan>:</tspan></text><text x="67px" y="59.015625" dy="-9.99" text-anchor="middle">
 									<tspan style="font-weight:bold;font-size:30px">11.8 V</tspan></text></g></g></g></g><g transform="translate(455.3106,247.1213)"><g><g><g></g></g><g><g></g></g></g></g></g></g></g></g></g></g><g><g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-150&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g><g visibility="hidden" display="none" style="pointer-events: none;"><g fill="#ffffff" opacity="1"><rect width="719" height="355"></rect></g><g><g transform="translate(349.5,177.5)"><g><g stroke-opacity="1" fill="#f3f3f3" fill-opacity="0.8"><g><g><path d=" M53,0  a53,53,0,0,1,-106,0 a53,53,0,0,1,106,0 M42,0  a42,42,0,0,0,-84,0 a42,42,0,0,0,84,0 L42,0 "></path></g></g></g><g stroke-opacity="1" fill="#000000" fill-opacity="0.2"><g><g><path d=" M50,0  a50,50,0,0,1,-100,0 a50,50,0,0,1,100,0 M45,0  a45,45,0,0,0,-90,0 a45,45,0,0,0,90,0 L45,0 "></path></g></g></g><g fill="#000000" fill-opacity="0.4"><g transform="translate(-15,-7)" style="user-select: none;"><text x="15px" y="14" dy="-3.78" text-anchor="middle"><tspan>100%</tspan></text></g></g></g></g></g></g><g opacity="0.3" aria-labelledby="id-165-title" filter="url(&quot;#filter-id-165&quot;)" style="cursor: pointer;" transform="translate(0,334)"><g fill="#ffffff" opacity="0"><rect width="66" height="21"></rect></g><g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="#3cabff"><path d=" M15,15  C17.4001,15 22.7998,15.0001 27,15 C31.2002,14.9999 33.2999,6 36,6 C38.7001,6 38.6999,10.5 40.5,10.5 C42.3001,10.5 42.2999,6 45,6 C47.7001,6 50.9999,14.9999 54,15 C57.0002,15.0001 58.7999,15 60,15"></path></g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="url(&quot;#gradient-id-168&quot;)"><path d=" M6,15  C8.2501,15 9.7498,15.0001 15,15 C20.2502,14.9999 20.7748,3.6 27,3.6 C33.2252,3.6 33.8998,14.9999 39.9,15 C45.9002,15.0001 45.9748,15 51,15 C56.0252,15 57.7499,15 60,15"></path></g></g><title id="id-165-title">Chart created using amCharts library</title></g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-182&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-205&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g></g></g></g></g></svg></div></div>
                                     <script>
@@ -1436,12 +1194,12 @@
                                         // Add data
                                         chart.data = [{
                                           "country": "Remaining",
-                                          "litres": 501.9,
-                                          "bottles": 803.8
+                                          "litres": 9,
+                                          "bottles": 9
                                         }, {
                                           "country": "Used",
-                                          "litres": 301.9,
-                                          "bottles": 150
+                                          "litres": 2,
+                                          "bottles": 2
                                         }];
                                         
                                         // Add and configure Series
@@ -1491,7 +1249,7 @@
                                         label.horizontalCenter = "middle";
                                         label.verticalCenter = "middle";
                                         label.adapter.add("text", function(text, target){
-                                          return "[font-size:18px]Remaining Units[/]:\n[bold font-size:30px]" + pieSeries.dataItem.values.value.sum + "[/]";
+                                          return "[font-size:18px]Battery Level[/]:\n[bold font-size:30px]" + pieSeries.dataItem.values.value.sum + "[/]";
                                         })
                                         
                                         }); // end am4core.ready()
