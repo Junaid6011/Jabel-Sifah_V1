@@ -859,7 +859,8 @@
 </style>
 <nav class="site-navbar navbar navbar-default bg-grey-800 navbar-fixed-top navbar-mega  " role="navigation">
 <?php include_once('_leftmenu.php'); ?>
-    <div class="page ">
+    
+	  <div class="page ">
 
         <div class="breadcrumb-box">
             <ol class="breadcrumb breadcrumb-arrow ">
@@ -1444,130 +1445,96 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 card-group-row__col">
-                                <div class="panel panel-default card round shadow font-size-12">
-                                    <div class="panel-heading margin-bottom-0">
-                                        <h3 class="panel-title font-weight-600 bg-theme1 white1 ">Highest Water Consumption
-                                            <a data-toggle="popover" class="  font-weight-200 margin-left-10 grey-400" data-original-title="" data-trigger="hover" data-container="body" data-placement="top" data-html="true" href="#" id="help1">
-                                                <i class="ri-question-line"></i>
-                                            </a>
+                            
+                          
+                            <div class="col-lg-6  ">
+                                <div class="panel panel-default  card round light  shadow">
+                                    <div class="panel-heading     ">
+                                        <h3 class="panel-title font-weight-600  "> Alerts
                                         </h3>
-                                        <div id="popover-content-help1" class="hide">
-                                            Some help information goes here
-                                        </div>
-
-
-
-
-                                    </div>
-                                    <div class="panel-body padding-15">
                                         
+                                    </div>
+                                   <div class="panel-body">
                                         <div class="filters margin-bottom-10 padding-bottom-10" style="border-bottom: 1px solid #eee;">
-                                        <div class="inline-block">
-                                            <select class="form-control input-xs">
-                                                <option>Buildings</option>
-                                                <option>Building 01</option>
-                                                <option>Building 02</option>
-                                                <option>Building 03</option>
-                                                <option>Building 04</option>
-                                            </select>
+                                            <div class="inline-block">
+                                                <select class="form-control input-xs">
+                                                    <option>Sites</option>
+                                                    <option>Sites 01</option>
+                                                    <option>Sites 02</option>
+                                                    <option>Sites 03</option>
+                                                    <option>Sites 04</option>
+                                                </select>
+                                            </div>
+                                            <div class="inline-block">
+                                                <select class="form-control input-xs">
+                                                    <option>Device</option>
+                                                    <option>Device 01</option>
+                                                    <option>Device 02</option>
+                                                    <option>Device 03</option>
+                                                    <option>Device 04</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="inline-block">
-                                            <select class="form-control input-xs">
 
-                                                <option>Floor </option>
-                                                <option>Floor 01</option>
-                                                <option>Floor 02</option>
-                                                <option>Floor 03</option>
-                                            </select>
-                                        </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-06">
-                                            
-                                        </div>
-                                    </div>
-                                   
-
+                                       
                                         <div>
-                                             <div class="chartbox">
-                                                <div id="space22" style="height:280px; margin-top:-10px;"><div style="width: 100%; height: 100%; position: relative;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs><clipPath id="id-388"><rect width="719" height="280"></rect></clipPath><linearGradient id="gradient-id-411" x1="1%" x2="99%" y1="59%" y2="41%"><stop stop-color="#474758" offset="0"></stop><stop stop-color="#474758" stop-opacity="1" offset="0.75"></stop><stop stop-color="#3cabff" stop-opacity="1" offset="0.755"></stop></linearGradient><filter id="filter-id-420" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"></filter><clipPath id="id-1218"><path d=" M-200,0  L-225,0  a225,225,0,0,1,450,0 L200,0  a200,200,0,0,0,-400,0 L-200,0 " r="0"></path></clipPath><filter id="filter-id-393" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-408" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%"><feColorMatrix type="saturate" values="0"></feColorMatrix></filter></defs><g><g fill="#ffffff" fill-opacity="0"><rect width="719" height="280"></rect></g><g><g role="region" clip-path="url(&quot;#id-388&quot;)" opacity="1" aria-label="Chart"><g transform="translate(15,15)"><g><g><g><g><g><g><g transform="translate(0,0)"><g fill="#ffffff" fill-opacity="0" transform="translate(0,0)"><rect width="689" height="250"></rect></g><g><g transform="translate(344.5,225)"><g><g opacity="0"></g><g><g></g></g><g aria-hidden="true"><g><g><g><g><g><g fill="#f3c300" fill-opacity="1" style="pointer-events: none;"><path d=" M-175,0  L-200,0  a200,200,0,0,1,200,-200 L0,-175  a175,175,0,0,0,-175,175 L-175,0 "></path></g><g fill="#f38400" fill-opacity="1" style="pointer-events: none;"><path d=" M0,-175  L0,-200  a200,200,0,0,1,161.8034,82.4429 L141.578,-102.8624  a175,175,0,0,0,-141.578,-72.1376 L0,-175 "></path></g><g fill="#be0032" fill-opacity="1" style="pointer-events: none;"><path d=" M141.578,-102.8624  L161.8034,-117.5571  a200,200,0,0,1,38.1966,117.5571 L175,0  a175,175,0,0,0,-33.422,-102.8624 L141.578,-102.8624 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none" display="none"><path d=" M-141.578,102.8624  L-161.8034,117.5571 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none" display="none"><path d=" M-166.4349,54.078  L-190.2113,61.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-175,0  L-200,0 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-166.4349,-54.078  L-190.2113,-61.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-141.578,-102.8624  L-161.8034,-117.5571 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-102.8624,-141.578  L-117.5571,-161.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-54.078,-166.4349  L-61.8034,-190.2113 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M0,-175  L0,-200 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M54.078,-166.4349  L61.8034,-190.2113 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M102.8624,-141.578  L117.5571,-161.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M141.578,-102.8624  L161.8034,-117.5571 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M166.4349,-54.078  L190.2113,-61.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M175,0  L200,0 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none" display="none"><path d=" M166.4349,54.078  L190.2113,61.8034 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M-175,0  L-200,0 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M0,-175  L0,-200 "></path></g><g stroke="#ffffff" stroke-opacity="0.3" fill="none"><path d=" M141.578,-102.8624  L161.8034,-117.5571 "></path></g><g fill-opacity="0" stroke-opacity="0" stroke="#000000" stroke-width="1"><path d=" M-200,0  L-205,0 "></path></g><g fill-opacity="0" stroke-opacity="0" stroke="#000000" stroke-width="1"><path d=" M0,-200  L0,-205 "></path></g><g fill-opacity="0" stroke-opacity="0" stroke="#000000" stroke-width="1"><path d=" M161.8034,-117.5571  L165.8485,-120.496 "></path></g></g></g><g fill="#000000" aria-label="L" fill-opacity="0" opacity="0" stroke-opacity="0" style="pointer-events: none;" transform="translate(-218,0)"><g transform="translate(-3,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>L</tspan></text></g></g><g fill="#000000" transform="translate(-180.411,130.488)" display="none"><g transform="translate(-8,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>-20</tspan></text></g></g><g fill="#000000" transform="translate(-212.085,68.60199999999999)" display="none"><g transform="translate(-8,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>-10</tspan></text></g></g><g fill="#000000" transform="translate(-218.5,0)"><g transform="translate(-3.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>0</tspan></text></g></g><g fill="#000000" transform="translate(-210.659,-68.60199999999999)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>10</tspan></text></g></g><g fill="#000000" transform="translate(-179.19799999999998,-130.488)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>20</tspan></text></g></g><g fill="#000000" transform="translate(-130.195,-179.602)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>30</tspan></text></g></g><g fill="#000000" transform="translate(-68.448,-211.13400000000001)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>40</tspan></text></g></g><g fill="#000000" transform="translate(0,-222)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>50</tspan></text></g></g><g fill="#000000" transform="translate(68.448,-211.13400000000001)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>60</tspan></text></g></g><g fill="#000000" transform="translate(130.195,-179.602)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>70</tspan></text></g></g><g fill="#000000" transform="translate(179.19799999999998,-130.488)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>80</tspan></text></g></g><g fill="#000000" transform="translate(210.659,-68.60199999999999)"><g transform="translate(-6.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>90</tspan></text></g></g><g fill="#000000" transform="translate(224.5,0)"><g transform="translate(-9.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>100</tspan></text></g></g><g fill="#000000" transform="translate(213.512,68.60199999999999)" display="none"><g transform="translate(-9.5,-7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>110</tspan></text></g></g><g fill="#000000" transform="translate(-215,0)"><g display="none"></g></g><g fill="#000000" transform="translate(0,-215)"><g display="none"></g></g><g fill="#000000" transform="translate(173.939,-126.374)"><g display="none"></g></g><g fill="#000000" stroke="#000000" transform="translate(0,0) rotate(332.40489238184)"><g><g><circle r="5"></circle></g><g transform="translate(0,-2.5)"><path d=" M0,0  L200,2  L200,3  L0,5 "></path></g></g></g><g><g></g></g></g></g><g fill="#000000"><g display="none"></g></g><g stroke="#000000" stroke-opacity="0.15" fill="none"><path transform="translate(-0.5,-0.5)"></path></g><g stroke="#000000" stroke-opacity="0" fill="none" style="pointer-events: none;"><path d=" M-200,0  a200,200,0,0,1,400,0" transform="translate(-0.5,-0.5)"></path></g></g></g><g><g></g></g><g clip-path="url(&quot;#id-1218&quot;)"><g></g></g></g></g><g><g></g></g><g role="button" focusable="true" tabindex="0" opacity="0" visibility="hidden" aria-hidden="true" transform="translate(649,-3)" aria-labelledby="id-374-title"><g fill="#6794dc" stroke="#ffffff" fill-opacity="1" stroke-opacity="0" transform="translate(0,8)"><path d="M17,0 L18,0 a17,17 0 0 1 17,17 L35,17 a17,17 0 0 1 -17,17 L17,34 a17,17 0 0 1 -17,-17 L0,17 a17,17 0 0 1 17,-17 Z"></path></g><g transform="translate(9,9)"><g stroke="#ffffff" style="pointer-events: none;" transform="translate(0,8)"><path d=" M0,0  L11,0 " transform="translate(2.5,7.5)"></path></g><g fill="#000000" style="pointer-events: none;" transform="translate(17,8)"><g display="none"></g></g></g><title id="id-374-title">Zoom Out</title></g></g></g><g><g></g></g><g transform="translate(689,0)"><g></g></g></g></g><g><g></g></g><g transform="translate(0,250)"><g></g></g></g></g></g></g><g fill="#000000" font-size="16" font-weight="500" transform="translate(427.2,242.5)"><g transform="translate(-107,0)" style="user-select: none;"><text x="0" y="18" dy="-4.86"><tspan>Hypernym Meter</tspan></text></g></g></g></g><g><g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-393&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g><g visibility="hidden" display="none"><g fill="#ffffff" opacity="1"><rect width="719" height="280"></rect></g><g><g><g><g stroke-opacity="1" fill="#f3f3f3" fill-opacity="0.8"><g><g><path d=" M53,0  a53,53,0,0,1,-106,0 a53,53,0,0,1,106,0 M42,0  a42,42,0,0,0,-84,0 a42,42,0,0,0,84,0 L42,0 "></path></g></g></g><g stroke-opacity="1" fill="#000000" fill-opacity="0.2"><g><g><path d=""></path></g></g></g><g fill="#000000" fill-opacity="0.4"><g display="none"></g></g></g></g></g></g><g opacity="0.3" aria-labelledby="id-408-title" filter="url(&quot;#filter-id-408&quot;)" style="cursor: pointer;" transform="translate(0,259)"><g fill="#ffffff" opacity="0"><rect width="66" height="21"></rect></g><g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="#3cabff"><path d=" M15,15  C17.4001,15 22.7998,15.0001 27,15 C31.2002,14.9999 33.2999,6 36,6 C38.7001,6 38.6999,10.5 40.5,10.5 C42.3001,10.5 42.2999,6 45,6 C47.7001,6 50.9999,14.9999 54,15 C57.0002,15.0001 58.7999,15 60,15"></path></g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="url(&quot;#gradient-id-411&quot;)"><path d=" M6,15  C8.2501,15 9.7498,15.0001 15,15 C20.2502,14.9999 20.7748,3.6 27,3.6 C33.2252,3.6 33.8998,14.9999 39.9,15 C45.9002,15.0001 45.9748,15 51,15 C56.0252,15 57.7499,15 60,15"></path></g></g><title id="id-408-title">Chart created using amCharts library</title></g><g role="tooltip" visibility="hidden" opacity="0" transform="translate(193.16115922950098,128.95320783054302)"><g fill="#000000" fill-opacity="1" stroke-width="1" stroke-opacity="1" stroke="#000000" style="pointer-events: none;" transform="translate(-10,-15)"><path d="M0,0 L20,0 a0,0 0 0 1 0,0 L20,10 a0,0 0 0 1 -0,0 L20,10 L15,10 L10,15 L5,10 L0,10 a0,0 0 0 1 -0,-0 L0,0 a0,0 0 0 1 0,-0"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(0,-15)"><g transform="translate(0,5)" display="none"></g></g></g></g></g></g></g></g></svg></div></div>
-                                                    <script>
-                                                        am4core.ready(function () {
-    
-                                                            // Themes begin
-                                                            am4core.useTheme(am4themes_kelly);
-                                                            am4core.useTheme(am4themes_animated);
-                                                            // Themes end
-    
-                                                            // create chart
-                                                            var chart = am4core.create("space22", am4charts.GaugeChart);
-                                                            chart.hiddenState.properties.opacity = 0; // this makes initial fade in effect
-    
-                                                            chart.innerRadius = -25;
-    
-                                                            var axis = chart.xAxes.push(new am4charts.ValueAxis());
-                                                            axis.min = 0;
-                                                            axis.max = 100;
-                                                            axis.strictMinMax = true;
-                                                            axis.renderer.grid.template.stroke = new am4core.InterfaceColorSet().getFor("background");
-                                                            axis.renderer.grid.template.strokeOpacity = 0.3;
-    
-                                                            var colorSet = new am4core.ColorSet();
-    
-                                                            var range0 = axis.axisRanges.create();
-                                                            range0.value = 0;
-                                                            range0.endValue = 50;
-                                                            range0.axisFill.fillOpacity = 1;
-                                                            range0.axisFill.fill = colorSet.getIndex(0);
-                                                            range0.axisFill.zIndex = - 1;
-    
-                                                            var range1 = axis.axisRanges.create();
-                                                            range1.value = 50;
-                                                            range1.endValue = 80;
-                                                            range1.axisFill.fillOpacity = 1;
-                                                            range1.axisFill.fill = colorSet.getIndex(2);
-                                                            range1.axisFill.zIndex = -1;
-    
-                                                            var range2 = axis.axisRanges.create();
-                                                            range2.value = 80;
-                                                            range2.endValue = 100;
-                                                            range2.axisFill.fillOpacity = 1;
-                                                            range2.axisFill.fill = colorSet.getIndex(4);
-                                                            range2.axisFill.zIndex = -1;
-    
-                                                            var hand = chart.hands.push(new am4charts.ClockHand());
-    
-                                                            // using chart.setTimeout method as the timeout will be disposed together with a chart
-                                                            chart.setTimeout(randomValue, 2000);
-    
-                                                            function randomValue() {
-                                                                hand.showValue(Math.random() * 100, 1000, am4core.ease.cubicOut);
-                                                                chart.setTimeout(randomValue, 2000);
-                                                            }
-                                                            var title = chart.createChild(am4core.Label);
-                                                            title.text = "Hypernym Meter"
-                                                            title.fontSize = 16;
-                                                            title.fill = am4core.color("#00000");
-                                                            title.isMeasured = false;
-                                                            title.x = am4core.percent(62);
-                                                            title.y = am4core.percent(97);
-                                                            title.horizontalCenter = "right";
-                                                            title.fontWeight = "500";
+                                            <div class="chartbox">
+                                                <div id="space_4" style="height:355px;"><div style="width: 100%; height: 100%; position: relative; top: 0.390625px;"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="group" style="width: 100%; height: 100%; overflow: visible;"><defs><clipPath id="id-46"><rect width="719" height="355"></rect></clipPath><linearGradient id="gradient-id-69" x1="1%" x2="99%" y1="59%" y2="41%"><stop stop-color="#474758" offset="0"></stop><stop stop-color="#474758" stop-opacity="1" offset="0.75"></stop><stop stop-color="#3cabff" stop-opacity="1" offset="0.755"></stop></linearGradient><clipPath id="id-78"></clipPath><filter id="filter-id-51" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="filter-id-66" filterUnits="objectBoundingBox" width="120%" height="120%" x="-10%" y="-10%"><feColorMatrix type="saturate" values="0"></feColorMatrix></filter><filter id="filter-id-83" filterUnits="objectBoundingBox" width="200%" height="200%" x="-50%" y="-50%"><feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="1.5"></feGaussianBlur><feOffset result="offsetBlur" dx="1" dy="1"></feOffset><feFlood flood-color="#000000" flood-opacity="0.5"></feFlood><feComposite in2="offsetBlur" operator="in"></feComposite><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><g><g fill="#ffffff" fill-opacity="0"><rect width="719" height="355"></rect></g><g><g role="region" clip-path="url(&quot;#id-46&quot;)" opacity="1" aria-label="Chart"><g><g><g><g><g><g transform="translate(359.5,138.5)"><g><g role="group" opacity="1" aria-label="Series"><g><g clip-path="url(&quot;#id-78&quot;)"><g></g></g><g></g><g><g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1024" fill="#f3c300" stroke="#f3c300"><g><g><path d=" M0,0  L0,-104.8  A6,6,0,0,1,5.9978,-110.6375 a110.8,110.8,0,0,1,103.2245,92.0059 A6,6,0,0,1,104.1102,-12.0046 L0,0 "></path></g><g></g></g></g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1058" fill="#a1caf1" stroke="#a1caf1"><g><g><path d=" M0,0  L91.4097,-10.5402  A6,6,0,0,1,97.8748,-5.2487 a98.01538461538463,98.01538461538463,0,0,1,-54.4644,93.1268 A6,6,0,0,1,35.6289,84.8376 L0,0 "></path></g><g></g></g></g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1091" fill="#848482" stroke="#848482"><g><g><path d=" M0,0  L30.6786,73.0502  A6,6,0,0,1,27.3915,80.7093 a85.23076923076924,85.23076923076924,0,0,1,-79.1067,-12.961 A6,6,0,0,1,-52.3863,59.4407 L0,0 "></path></g><g></g></g></g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1124" fill="#0067a5" stroke="#0067a5" transform="translate(0,0)"><g><g><path d=" M0,0  L-42.5244,48.2508  A6,6,0,0,1,-50.8195,48.5966 a70.31538461538463,70.31538461538463,0,0,1,-19.4925,-47.9106 A6,6,0,0,1,-64.1317,-4.8576 L0,0 "></path></g><g></g></g></g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1157" fill="#f6a600" stroke="#f6a600"><g><g><path d=" M0,0  L-53.0833,-4.0208  A6,6,0,0,1,-58.3106,-10.4262 a59.235384615384625,59.235384615384625,0,0,1,15.0764,-30.0663 A6,6,0,0,1,-34.9743,-40.1348 L0,0 "></path></g><g></g></g></g><g stroke-opacity="1" role="menuitem" focusable="true" tabindex="0" id="id-1190" fill="#882d17" stroke="#882d17"><g><g><path d=" M0,0  L-31.8946,-36.6007  A6,6,0,0,1,-31.103,-44.8113 a54.547692307692316,54.547692307692316,0,0,1,25.1121,-9.4064 A6,6,0,0,1,0,-48.5477 L0,0 "></path></g><g></g></g></g></g></g><g><g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="73.72373643208,-82.71306236747999,116.34,-91.328,122.34,-91.328"></polyline></g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="84.6080410706431,49.48226962673232,115.701,54.985,121.701,54.985"></polyline></g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="-13.780683196123078,84.10931454812308,-115.062,94.236,-121.062,94.236"></polyline></g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="-65.13117772541771,26.498735847870005,-114.316,30.085,-120.316,30.085"></polyline></g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="-52.95120451678232,-26.551849858876622,-113.762,-30.569,-119.762,-30.569"></polyline></g><g fill-opacity="0" stroke-opacity="0.2" stroke="#000000" stroke-width="1"><polyline points="-19.13399749049108,-51.081707839291084,-113.527,-59.255,-119.527,-59.255"></polyline></g></g></g><g><g><g fill="#000000" aria-label="Parking Sensors: 23.2%" transform="translate(122.34,-91.328)"><g transform="translate(5,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Parking Sensors: 23.2%</tspan></text></g></g><g fill="#000000" aria-label="Sockets: 20.5%" transform="translate(121.701,54.985)"><g transform="translate(5,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Sockets: 20.5%</tspan></text></g></g><g fill="#000000" aria-label="Switches: 17.8%" transform="translate(-121.062,94.236)"><g transform="translate(-87,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Switches: 17.8%</tspan></text></g></g><g fill="#000000" aria-label="Cams: 14.7%" transform="translate(-120.316,30.085)"><g transform="translate(-71,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Cams: 14.7%</tspan></text></g></g><g fill="#000000" aria-label="Bulbs: 12.4%" transform="translate(-119.762,-30.569)"><g transform="translate(-72,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Bulbs: 12.4%</tspan></text></g></g><g fill="#000000" aria-label="Electric Meter: 11.4%" transform="translate(-119.527,-59.255)"><g transform="translate(-113,-6.5)" style="user-select: none;"><text x="0" y="12.8125" dy="-3.459"><tspan>Electric Meter: 11.4%</tspan></text></g></g></g></g></g></g></g></g><g transform="translate(259,177.5)"><g><g><g></g></g></g></g></g></g><g role="group" aria-label="Legend" transform="translate(0,277)"><g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1024" aria-labelledby="id-1024" aria-checked="true" transform="translate(48.5,0)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="163" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#f3c300" stroke="#f3c300"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Parking Sensors" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Parking Sensors</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(108,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>23.2%</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1058" aria-labelledby="id-1058" aria-checked="true" transform="translate(231.5,0)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="126" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#a1caf1" stroke="#a1caf1"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Sockets" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Sockets</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(71,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>20.5%</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1091" aria-labelledby="id-1091" aria-checked="true" transform="translate(405.5,0)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="130" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#848482" stroke="#848482"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Switches" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Switches</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(75,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>17.8%</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1124" aria-labelledby="id-1124" aria-checked="true" transform="translate(555.5,0)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="115" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#0067a5" stroke="#0067a5"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Cams" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Cams</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(60,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>14.7%</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1157" aria-labelledby="id-1157" aria-checked="true" transform="translate(48.5,39)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="115" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#f6a600" stroke="#f6a600"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Bulbs" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Bulbs</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(60,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>12.4%</tspan></text></g></g></g></g><g focusable="true" tabindex="0" role="switch" aria-controls="id-1190" aria-labelledby="id-1190" aria-checked="true" transform="translate(231.5,39)" style="cursor: pointer;"><g fill="#ffffff" fill-opacity="0"><rect width="154" height="39"></rect></g><g transform="translate(0,8)"><g style="pointer-events: none;"><g fill="#ffffff" fill-opacity="0" stroke-opacity="0"><rect width="23" height="23"></rect></g><g><g stroke-opacity="1" fill="#882d17" stroke="#882d17"><path d="M3,0 L20,0 a3,3 0 0 1 3,3 L23,20 a3,3 0 0 1 -3,3 L3,23 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3 Z"></path></g></g></g><g fill="#000000" aria-label="Electric Meter" style="pointer-events: none;" transform="translate(28,4.5)"><g style="user-select: none;"><text x="0" y="14.015625" overflow="hidden" dy="-3.784"><tspan>Electric Meter</tspan></text></g></g><g fill="#000000" aria-label="%" style="pointer-events: none;" transform="translate(99,5)"><g style="user-select: none;"><text x="50" y="12.8125" dy="-3.459" text-anchor="end"><tspan>11.4%</tspan></text></g></g></g></g></g></g></g></g></g></g><g><g><g role="tooltip" visibility="hidden" opacity="0"><g fill="#ffffff" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-51&quot;)" style="pointer-events: none;" transform="translate(0,6)"><path d="M3,0 L3,0 L0,-6 L13,0 L21,0 a3,3 0 0 1 3,3 L24,8 a3,3 0 0 1 -3,3 L3,11 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(12,6)"><g transform="translate(0,7)" display="none"></g></g></g></g><g visibility="hidden" display="none" style="pointer-events: none;"><g fill="#ffffff" opacity="1"><rect width="719" height="355"></rect></g><g><g transform="translate(259,177.5)"><g><g stroke-opacity="1" fill="#f3f3f3" fill-opacity="0.8"><g><g><path d=" M53,0  a53,53,0,0,1,-106,0 a53,53,0,0,1,106,0 M42,0  a42,42,0,0,0,-84,0 a42,42,0,0,0,84,0 L42,0 "></path></g></g></g><g stroke-opacity="1" fill="#000000" fill-opacity="0.2"><g><g><path d=" M50,0  a50,50,0,0,1,-100,0 a50,50,0,0,1,100,0 M45,0  a45,45,0,0,0,-90,0 a45,45,0,0,0,90,0 L45,0 "></path></g></g></g><g fill="#000000" fill-opacity="0.4"><g transform="translate(-14.5,-6.5)" style="user-select: none;"><text x="14.5px" y="12.8125" dy="-3.459" text-anchor="middle"><tspan>100%</tspan></text></g></g></g></g></g></g><g opacity="0.3" aria-labelledby="id-66-title" filter="url(&quot;#filter-id-66&quot;)" style="cursor: pointer;" transform="translate(0,334)"><g fill="#ffffff" opacity="0"><rect width="66" height="21"></rect></g><g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="#3cabff"><path d=" M15,15  C17.4001,15 22.7998,15.0001 27,15 C31.2002,14.9999 33.2999,6 36,6 C38.7001,6 38.6999,10.5 40.5,10.5 C42.3001,10.5 42.2999,6 45,6 C47.7001,6 50.9999,14.9999 54,15 C57.0002,15.0001 58.7999,15 60,15"></path></g><g shape-rendering="auto" fill="none" stroke-opacity="1" stroke-width="1.7999999999999998" stroke="url(&quot;#gradient-id-69&quot;)"><path d=" M6,15  C8.2501,15 9.7498,15.0001 15,15 C20.2502,14.9999 20.7748,3.6 27,3.6 C33.2252,3.6 33.8998,14.9999 39.9,15 C45.9002,15.0001 45.9748,15 51,15 C56.0252,15 57.7499,15 60,15"></path></g></g><title id="id-66-title">Chart created using amCharts library</title></g><g role="tooltip" opacity="0" aria-describedby="id-1124" transform="translate(326.9344,151.7494)" aria-hidden="true" visibility="hidden"><g fill="#0067a5" fill-opacity="0.9" stroke-width="1" stroke-opacity="1" stroke="#ffffff" filter="url(&quot;#filter-id-83&quot;)" style="pointer-events: none;" transform="translate(-55.5,-31)"><path d="M3,0 L108,0 a3,3 0 0 1 3,3 L111,22 a3,3 0 0 1 -3,3 L108,25 L60.5,25 L55.5,31 L50.5,25 L3,25 a3,3 0 0 1 -3,-3 L0,3 a3,3 0 0 1 3,-3"></path></g><g><g fill="#ffffff" style="pointer-events: none;" transform="translate(0,-31)"><g transform="translate(-43.5,7)" style="user-select: none;"><text x="0" y="14" dy="-3.78"><tspan>Cams: 14.7% (165)</tspan></text></g></g></g></g></g></g></g></g></svg></div></div>
+                                                <script>
+                                                    am4core.ready(function () {
+
+                                                        // Themes begin
+                                                        am4core.useTheme(am4themes_kelly);
+                                                        am4core.useTheme(am4themes_animated);
+                                                        // Themes end
+
+                                                        // Create chart
+                                                        var chart = am4core.create("space_4", am4charts.PieChart);
+                                                        chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+
+                                                        chart.data = [
+                                                            {
+                                                                country: "Low Battery",
+                                                                value: 260
+                                                            },
+                                                            {
+                                                                country: "Empty Pipe",
+                                                                value: 230
+                                                            },
+                                                            {
+                                                                country: "Reverse Flow",
+                                                                value: 200
+                                                            },
+                                                            {
+                                                                country: "Temperature ",
+                                                                value: 165
+                                                            },
+                                                            {
+                                                                country: "Tamper",
+                                                                value: 139
+                                                            },
                                                             
-                                                        }); // end am4core.ready()
-                                                    </script>
-                                                    <div class="font-size-14  margin-bottom-10 font-weight-100 relative text-center" style="top:-0px; z-index:20;"> 253.15L(L/m) </div>
-                                 
+                                                        ];
+
+                                                        var series = chart.series.push(new am4charts.PieSeries());
+                                                        series.dataFields.value = "value";
+                                                        series.dataFields.radiusValue = "value";
+                                                        series.dataFields.category = "country";
+                                                        series.slices.template.cornerRadius = 6;
+                                                        series.colors.step = 3;
+
+                                                        series.hiddenState.properties.endAngle = -90;
+
+                                                        chart.legend = new am4charts.Legend();
+
+                                                    }); // end am4core.ready()
+                                                </script>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                            </div>
-                        
+                                </div>
                          
                            
                             <div class="col-lg-6  card-group-row__col">
