@@ -1,5 +1,4 @@
-  
-	<div class="navbar-header ">
+<div class="navbar-header ">
         <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided unfolded" data-toggle="menubar">
             <span class="sr-only">navigation</span>
             <span class="hamburger-bar"></span>
@@ -105,8 +104,7 @@
         </div>
 
         
-</div></nav>    
-<div class="site-menubar" style="z-index:1">
+</div></nav>    ﻿<div class="site-menubar" style="z-index:1">
     <div class="site-menubar-body scrollable scrollable-inverse is-enabled scrollable-vertical">
 
         <ul class="site-menu scrollable-container" style="height: 543px; width: 221px;">
@@ -158,14 +156,14 @@
                     <li class="site-menu-item">
                         <a class="" href="manage-floor.php"> <span class="site-menu-title">  Floor  </span> </a>
                     </li>
-                   
-                   
+                    
+                  
         
 
                 </ul>
             </li>
 
-          
+         
 
             <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
                 <a href="javascript:void(0)">
@@ -193,31 +191,30 @@
          
             <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
 			
- <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
+ 
+            
+           
+            <li class="site-menu-item has-sub    scrollable-content" style="width: 216px;">
                 <a href="javascript:void(0)">
-                    <i class="site-menu-icon icon "><i class="ri-user-2-line"></i> </i>
-                    <span class="site-menu-title"> User & Admin  </span>
+                    <i class="site-menu-icon icon "><i class="ri-building-line"></i> </i>
+                    <span class="site-menu-title"> Payment  </span>
                     <span class="site-menu-arrow"></span>
                 </a>
                 <ul class="site-menu-sub">
                     <li class="site-menu-item">
-                        <a class="" href="role_access.php"> <span class="site-menu-title">     Role and Access 
+                        <a class="" href="payment_gateway.php"> <span class="site-menu-title">   New Payment  
                             </span> </a>
                     </li>
                     <li class="site-menu-item">
-                        <a class="" href="admin-Customer.php"> <span class="site-menu-title">      Customer   </span> </a>
+                        <a class="" href="manage-payment.php"> <span class="site-menu-title">  Manage Payment  </span> </a>
                     </li>
+                    
+                  
+        
 
                 </ul>
             </li>
-            
-           
-            <li class="site-menu-item     scrollable-content" style="width: 216px;">
-                <a href="payment_gateway.php">
-                    <i class="site-menu-icon icon "> <i class="ri-file-text-line"></i></i>
-                    <span class="site-menu-title"> Payment Gateway </span>
-                </a>
-            </li>
+
    
 
 
