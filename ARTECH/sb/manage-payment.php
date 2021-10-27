@@ -872,9 +872,8 @@
     }
 </style>
 <nav class="site-navbar navbar navbar-default bg-grey-800 navbar-fixed-top navbar-mega  " role="navigation">
-   
-<?php include_once('_leftmenu.php'); ?> 
-	
+<?php include_once('_leftmenu.php'); ?>
+     
  <div class="page ">
 
         <div class="breadcrumb-box">
@@ -899,97 +898,8 @@
                             </div>
                         </div> -->
                         <div class="panel-body padding-15">
-                            <div class="form-group margin-bottom-10">
-                                <a href="" class="btn btn-success btn-block bg-blue-800 bg-theme btn-round" data-toggle="modal" data-target="#add-asset"> <i class="ri-add-circle-fill"></i> New Payment</a>
-                            </div>
-                            <div class="modal fade" id="add-asset" role="dialog" style="display: none;">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">×</button>
-                                            <h4 class="modal-title">Add New Payment </h4>
-                                        </div>
-                                       <div class="container">
-    <div class="page-header text-center">
-        <h1>Credit Card Payment Gateway</h1>
-    </div>
-    <!-- Credit Card Payment Form - START -->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-4 col-md-offset-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <h3 class="text-center">Payment Details</h3>
-                            <div class="inlineimage"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Discover-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Paypal-Curved.png"> <img class="img-responsive images" src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/American-Express-Curved.png"> </div>
-                        </div>
-                    </div>
-					
-                    <div class="panel-body">
-                        <form role="form">
-						 <div class="row">
-             <div class="form-group margin-bottom-10">
-             <label>Choose Meter</label>
-               <div class="btn-group bootstrap-select form-control"><button type="button" class="btn dropdown-toggle bs-placeholder btn-select" data-toggle="dropdown" role="button" title="Choose Building">
-										<span class="filter-option pull-left">Choose Meter</span>&nbsp;<span class="bs-caret"><span class="caret"></span>
-										</span></button>
-										<div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" role="listbox">
-										<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">XVG1234</span>
-										<span class="glyphicon glyphicon-ok check-mark"></span></a></li>
-										<li data-original-index="2">
-										<a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
-										<span class="text">1231</span>
-										<span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
-										</div>
-                                    </div>
-                                    
-</div>
-
-
-<div class="row">
-                                                             <div class="col-xs-12">
-                                    <div class="form-group"> <label>Amount</label>
-									<input type="text" class="form-control" placeholder="Billed Amount" /> </div>
-                                </div>
-
-
-                                                        </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="form-group"> <label>CARD NUMBER</label>
-                                        <div class="input-group"> <input type="tel" class="form-control" placeholder="Valid Card Number" /> <span class="input-group-addon"><span class="fa fa-credit-card"></span></span> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-7 col-md-7">
-                                    <div class="form-group"> <label><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label> <input type="tel" class="form-control" placeholder="MM / YY" /> </div>
-                                </div>
-                                <div class="col-xs-5 col-md-5 pull-right">
-                                    <div class="form-group"> <label>CV CODE</label> <input type="tel" class="form-control" placeholder="CVC" /> </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="form-group"> <label>CARD OWNER</label> <input type="text" class="form-control" placeholder="Card Owner Name" /> </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="panel-footer">
-                        <div class="row">
-                            <div class="col-xs-12"> <button class="btn btn-success btn-lg btn-block">Confirm Payment</button> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
-
-                                    </div>
-                                </div>
-                            </div>
+                           
+                           
 
 
                             <div class="form-group margin-bottom-10">
@@ -1000,11 +910,11 @@
 										<span class="filter-option pull-left">Choose Meter</span>&nbsp;<span class="bs-caret"><span class="caret"></span>
 										</span></button>
 										<div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" role="listbox">
-										<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Building 1</span>
+										<li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">1254</span>
 										<span class="glyphicon glyphicon-ok check-mark"></span></a></li>
 										<li data-original-index="2">
 										<a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false">
-										<span class="text">Building 2</span>
+										<span class="text">23XVG</span>
 										<span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
 										</div>
                                     </div>
@@ -1111,9 +1021,9 @@
 											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px;"
 											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Id </th>
 											<th class="sorting_asc" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width:359px;"
-											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Meter Serial </th>
+											aria-sort="ascending" aria-label=" Id : activate to sort column descending"> Invoice# </th>
 											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px;
-											" aria-label=" Meter Name: activate to sort column ascending"> Building Name</th>
+											" aria-label=" Meter Name: activate to sort column ascending"> Meter Name</th>
 											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 360px;
 											" aria-label=" Location: activate to sort column ascending"> Location</th>
 											<th class="sorting" tabindex="0" aria-controls="ppp" rowspan="1" colspan="1" style="width: 290px;
@@ -1123,22 +1033,20 @@
 											" aria-label=" Action: activate to sort column ascending"> Action</th></tr>
 
 
-                        </thead></table></div></div>
-                        <div class="dataTables_scrollBody" style="position: relative; overflow: auto; max-height: 250px; height: 250px; width: 100%;">
-                        <table class="table nowrap margin-bottom-0 table-bordered  table-striped theme-table1  bg-white  table-condensed  text-wrap dataTable no-footer dtr-inline" id="ppp" role="grid" aria-describedby="ppp_info" style="width: 100%;"><thead>
+                                        </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; max-height: 250px; height: 250px; width: 100%;"><table class="table nowrap margin-bottom-0 table-bordered  table-striped theme-table1  bg-white  table-condensed  text-wrap dataTable no-footer dtr-inline" id="ppp" role="grid" aria-describedby="ppp_info" style="width: 100%;"><thead>
                                             <tr role="row" style="height: 0px;">
 											<th class="sorting_asc" aria-controls="ppp" rowspan="1" colspan="1" style="width: 59px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
 											aria-sort="ascending" aria-label=" Id : activate to sort column descending">
 											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Id </div></th>
 										<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 200px; padding-top: 0px; 
 											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
-											aria-label=" Meter Serial#: activate to sort column ascending">
-											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Meter Serial</div></th>
+											aria-label=" Invoice#: activate to sort column ascending">
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Invoice#</div></th>
 
 											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 389px; padding-top: 0px; 
 											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"
 											aria-label=" Meter Name: activate to sort column ascending">
-											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Building Name</div></th>
+											<div class="dataTables_sizing" style="height: 0px; overflow: hidden;"> Meter Name</div></th>
 											<th class="sorting" aria-controls="ppp" rowspan="1" colspan="1" style="width: 360px; padding-top: 0px; 
 											padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" 
 											aria-label=" Location: activate to sort column ascending">
@@ -1172,62 +1080,33 @@
 
                                         <tr role="row" class="odd">
                                                 <td class="sorting_1 dtr-control"> 1 </td>
-											
+												<td>  1283</td>
                                                 <td>
 												 
                                                     <div class="media" style="max-width: 130px;">
-                                                        
+                                                        <div class="media-left padding-right-10">
+                                                            <img src="images/building.jpg" class="img-bordered" style="height:30px">
+                                                        </div>
                                                         <div class="media-body">
-                                                            <a href="detail-meter.php" class="font-weight-600">XVG 1787</a>
+                                                            <a href="detail-meter.php" class="font-weight-600">XVG 1235</a>
 
                                                         </div>
                                                     </div>
                                                 </td>
-                                                <td>  JS HQ</td>
+                                               
                                                 <td>  Jabel Sifah Oman</td>
  <td>  50 OMR</td>
                                                 <td>
-Paid
-                                                </td>
-                                            </tr>
-                                            <tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control"> 2 </td>
-											
-                                                <td>
-												 
-                                                    <div class="media" style="max-width: 130px;">
-                                                        
-                                                        <div class="media-body">
-                                                            <a href="detail-meter.php" class="font-weight-600">XVG 14587</a>
 
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>  JS HQ</td>
-                                                <td>  Jabel Sifah Oman</td>
- <td>  11 OMR</td>
-                                                <td>
-Paid
-                                                </td>
-                                            </tr>
-                                            <tr role="row" class="odd">
-                                                <td class="sorting_1 dtr-control"> 3 </td>
-											
-                                                <td>
-												 
-                                                    <div class="media" style="max-width: 130px;">
-                                                        
-                                                        <div class="media-body">
-                                                            <a href="detail-meter.php" class="font-weight-600">XVG 12347</a>
 
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>  JS HQ</td>
-                                                <td>  Jabel Sifah Oman</td>
- <td>  150 OMR</td>
-                                                <td>
-UnPaid
+                                                   <a type="button" href="invoice.html" class="btn btn-icon  btn-info btn-xs " 
+												  >
+												   <i class="ri-pencil-fill"></i>
+
+												   </a>
+                                                        <a type="button" href="#delete-popup" class="btn btn-icon  btn-danger btn-xs " 
+														data-toggle="modal" data-target="#delete-popup"> <i class="ri-delete-bin-6-line"></i> </a>
+                                                     
                                                 </td>
                                             </tr>
 											
